@@ -64,11 +64,11 @@ const FeaturesSection = () => {
     <section className="py-20 bg-gradient-card">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-foreground">
             Comprehensive Features for
             <span className="block text-primary">Every Stakeholder</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             From complaint registration to resolution, our platform provides everything needed 
             for efficient drainage management across all user roles.
           </p>
@@ -85,7 +85,7 @@ const FeaturesSection = () => {
                 <div className="mx-auto mb-4 p-4 bg-gradient-card rounded-full shadow-feature">
                   <feature.icon className={`w-8 h-8 ${feature.color} group-hover:scale-110 transition-transform duration-300`} />
                 </div>
-                <CardTitle className="text-xl font-semibold text-card-foreground">
+                <CardTitle className="text-lg md:text-xl font-semibold text-card-foreground">
                   {feature.title}
                 </CardTitle>
               </CardHeader>
@@ -100,7 +100,7 @@ const FeaturesSection = () => {
         
         {/* Additional Features Banner */}
         <div className="bg-gradient-hero rounded-2xl p-8 md:p-12 text-center shadow-hover">
-          <h3 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-8">
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-primary-foreground mb-8">
             Built with Advanced Technology
           </h3>
           

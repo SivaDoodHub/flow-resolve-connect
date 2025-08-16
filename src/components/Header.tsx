@@ -22,7 +22,7 @@ const Header = () => {
               <Droplets className="w-6 h-6 text-primary-foreground" />
             </div>
             <div>
-              <div className="text-xl font-bold text-foreground">SDMS</div>
+              <div className="text-lg md:text-xl font-bold text-foreground">SDMS</div>
               <div className="text-xs text-muted-foreground hidden sm:block">Smart Drainage Management</div>
             </div>
           </div>
